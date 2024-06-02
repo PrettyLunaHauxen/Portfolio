@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contacts.css">
+    <title>Contacts</title>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="navbar-left">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="tables.html">Tables</a></li>
+                    <li><a href="lists.html">Lists</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="contacts">
+            <div class="cols">
+                <h1>Contact Us</h1>
+                    <table>
+                        <tr>
+                            <td><p>Student ID: <span class="hlight">2016- 00785</span></p></td>
+                            <td><p>Last Name: <span class="hlight">Dela Cruz</span></p></td>
+                            <td><p>First Name: <span class="hlight">Elaiza</span></p></td>
+                        </tr>
+                    </table>
+                    <form id="contact-form" method="post" action="submit.php">
+                        <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        <label for="message">Message:</label>
+                            <textarea id="message" name="message" required></textarea>
+                        <center>
+                            <button type="submit">Submit</button>
+                            <button type="reset">Reset</button>
+                        </center>
+                    </form>
+            </div>
+            <div class="cols">
+                <h1>Find Us</h1>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d202404.91416948196!2d126.80933236033059!3d37.56503371407913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2012d5c39cf%3A0x7e11eca1405bf29b!2sSeoul%2C%20South%20Korea!5e0!3m2!1sen!2sph!4v1717346083914!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="socials">
+                    <a href="https://www.facebook.com/drmapparel" target="_blank"><img src="facebook.png" alt=""></a>
+                    <a href="https://www.tiktok.com/@dreamapparel1" target="_blank"><img src="instagram.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
